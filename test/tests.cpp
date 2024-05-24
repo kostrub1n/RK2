@@ -47,4 +47,5 @@ TEST(CondimentDecoratorTest, CostTest) {
         .WillOnce(testing::Return(10.0));
 
     EXPECT_DOUBLE_EQ(condimentDecorator.Cost(), 10.0);
+    
 }
